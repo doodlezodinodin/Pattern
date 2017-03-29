@@ -15,6 +15,7 @@ public class StateApp {
         }
     }
 }
+//State
 interface Station{
     void play();
 }
@@ -27,6 +28,7 @@ class RadioDFM implements Station{
 class RadioV implements Station{
     public void play(){System.out.println("RadioV...");}
 }
+//Context
 class Radio{
     Station station;
     public void setStation(Station station){this.station = station;}
