@@ -1,4 +1,4 @@
-package pattern.Command;
+package pattern.command;
 
 /**
  * Created by alex on 29.03.2017.
