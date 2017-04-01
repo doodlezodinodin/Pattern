@@ -1,11 +1,11 @@
-import pattern.composite.composite0.CompositeApp;
+import pattern.templateMethod.templateMethod0.TemplateMethodApp;
 
 /**
  * Created by alex on 27.03.2017.
  */
 public class Main {
     public static void main(String[] args){
-        CompositeApp a = new CompositeApp();
+        TemplateMethodApp a = new TemplateMethodApp();
         a.main();
     }
 }
