@@ -6,10 +6,10 @@ package pattern.command.command;
 public class CommandApp {
     public static void main(){
 
-        User user = new User(new Call(new Phone()), new SendSms(new Phone()); new PlayMusic(new Phone());
+        User user = new User(new Call(new Phone()), new SendSms(new Phone()), new PlayMusic(new Phone()));
         user.userCall();
         user.userSendSms();
-        user.userPlayMusic();   
+        user.userPlayMusic();
 
     }
 }
